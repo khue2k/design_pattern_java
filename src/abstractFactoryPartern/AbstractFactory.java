@@ -1,0 +1,5 @@
+package abstractFactoryPartern;
+
+public abstract class AbstractFactory {
+    abstract Shape getShape(String shapeType);
+}
