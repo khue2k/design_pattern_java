@@ -16,6 +16,6 @@ public class TaxFactory {
         if(vat!=null){
             return new RealTax(country,vat);
         }
-        return new NullTax(country);
+        return new NullTax();
     }
 }

@@ -1,13 +1,7 @@
 package nullPattern;
 
 public class NullTax implements  Tax{
-    private String country="UNKNOWN_COUNTRY";
-
-    public NullTax(String country) {
-        if(country!=null){
-            this.country = country;
-        }
-    }
+    private final String country="UNKNOWN_COUNTRY";
 
     @Override
     public String getCountry() {
